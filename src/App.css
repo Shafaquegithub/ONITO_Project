@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
 }
 
 .App-logo {
@@ -35,4 +35,97 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+
+
+/* form css */
+
+.input-div{
+  background-color: rgb(246, 243, 243);
+  margin: 30px auto;
+  padding: 30px;
+  width: 90%;
+  max-width: 800px;
+}
+.input-div h4{
+  text-decoration: underline;
+  margin: 5px 10px;
+  font-size: 22px;
+}
+.input-div label, input, select{
+  width: 200px;
+  font-size: 18px;
+  display: inline-block;
+  margin: 10px;
+}
+.input-div input, select{
+  height: 32px;
+  border-radius: 5px;
+  background: transparent;
+  border: 1px solid black;
+  padding-left: 10px;
+  width: 500px;
+}
+.input-div input[type="date"]{
+  width: 220px;
+  height: 35px;
+}
+.input-div select{
+  width: 400px;
+  height: 37px;
+}
+.btn-div{
+  width: 600px;
+  margin-left: auto;
+  text-align: center;
+}
+.btn-div button{
+  width: 150px;
+  height: 60px;
+  margin: 20px;
+  border-radius: 5px;
+}
+.btn-div button:nth-child(1){
+  border: 1px solid red;
+  color: red;
+  background: transparent;
+}
+.btn-div button:nth-child(2){
+  border: 1px solid green;
+  color: white;
+  background: green;
+}
+
+
+/* table css */
+
+table{
+  border-spacing: 0 !important;
+  width: 95%;
+  text-align: center;
+  margin: 0px auto;
+}
+table tr:nth-child(1){
+  background-color: aquamarine;
+  height: 40px;
+  border-radius: 50px 5px 0 0 ;
+}
+h3{
+text-align: center;
+display: block;
+width: 90%;
+margin:10px auto;
+padding: 5px;
+font-size: 22px;
+font-weight: bold;  
+}
+td, th{
+  margin: 0;
+  height: 40px;
+  border: 0.5px solid rgb(232, 232, 232);
+}
+tr{
+  background-color: rgb(252, 249, 249);
 }
