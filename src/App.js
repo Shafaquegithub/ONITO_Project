@@ -5,7 +5,7 @@ import './App.css';
 function App() {
   const [receiptData, setReceiptData] = useState([
     
-  ])
+  ]) 
 
   const [inputData, setInputData] = useState({
     date: "",
